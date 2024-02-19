@@ -1,2 +1,86 @@
 
 /* Your CSS Code here. */
+.holder{
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	flex-wrap:wrap;
+	
+}
+.box1{
+	width:130px;
+	height:130px;
+	background-color:red;
+	font-style:bold;
+	font-size:50px;
+	order:2;
+}
+.box2{
+	width:130px;
+	height:130px;
+	background-color:blue;
+	font-style:bold;
+	font-size:50px;
+	order:3
+}
+.box3{
+	width:130px;
+	height:130px;
+	background-color:green;
+	font-style:bold;
+	font-size:50px;
+	order:1;
+}
+.items{
+    display:flex;
+	flex-direction:row;
+	justify-content:center;
+	flex-wrap:wrap;
+	
+}
+.box_1 {
+	width:130px;
+	height:130px;
+	background-color:red;
+	font-style:bold;
+	font-size:50px;
+	
+}.box_2{
+	width:130px;
+	height:130px;
+	background-color:blue;
+	font-style:bold;
+	font-size:50px;
+	
+	
+}
+.box_3,.box_4,.box_5,.box_6,.box_7{
+	width:130px;
+	height:130px;
+	background-color:green;
+	font-style:bold;
+	font-size:50px;
+	
+}
+.items .box_1{
+	order:6;
+}
+.items .box_2{
+	order:7;
+}
+.items .box_3{
+	order:1;
+}
+.items .box_4{
+	order:2;
+}
+.items .box_5{
+	order:3;
+}
+.items .box_6{
+	order:4;
+}
+.items .box_7{
+	order:5;
+}
